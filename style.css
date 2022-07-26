@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #7030CC;
+    color: white;
+}
+
+nav {
+    height: 6rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.right-nav button {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.8rem 1.8rem;
+    background-color: rgb(10, 237, 237);
+    border: none;
+}
+
+.active-link {
+    color: blue;
+    border-bottom: 1px solid red;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-banner {
+    padding: 2rem 4rem;
+}
+
+.left-banner h1 {
+   font-size: 3rem;
+   margin: 1rem 0rem;
+}
+
+.right-banner {
+    padding: 2rem 4rem;
+}
+
+.right-banner img {
+    width: 30rem;
+}
+
+.about {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-about img {
+    width: 35rem;
+}
+
+.right-about h2 {
+    font-size: 2.5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0rem;
+}
+
+.box p {
+    margin: 1rem 0rem;
+    padding-left: 2.8rem;
+}
+
+.item {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    margin-bottom: 3rem;
+}
+
+.services h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 9px 0px 5px #888, 0px 10px 5px #888;
+    border-radius: 1.3rem;
+   
+}
+
+.content {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.content h4 {
+    font-size: 1.5rem;
+}
+
+.card .active {
+    background-color: indigo;
+    border-radius: 1rem;
+    color: white;
+}
